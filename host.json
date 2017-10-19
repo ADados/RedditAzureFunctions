@@ -1,0 +1,10 @@
+{
+  "functionTimeout": "00:10:00",
+  "tracing": {
+    "consoleLevel": "verbose",
+    "fileLoggingMode": "debugOnly"
+  },
+  "queues": {
+    "batchSize": 9
+  }
+}

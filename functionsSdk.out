@@ -1,0 +1,4 @@
+AzureMLJobChecker\function.json
+ProcessPost\function.json
+ScheduledAzureML\function.json
+ScheduledRedditQuery\function.json

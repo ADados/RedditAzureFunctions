@@ -1,0 +1,16 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.MSBuild-1.0.4",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "timerTrigger",
+      "runOnStartup": false,
+      "schedule": "%ScheduledRedditQueryFrequency%",
+      "useMonitor": true,
+      "name": "timer"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\bin\\RedditAzureFunctions.dll",
+  "entryPoint": "RedditAzureFunctions.ScheduledRedditQuery.Run"
+}

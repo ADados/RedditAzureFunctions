@@ -1,0 +1,15 @@
+{
+  "generatedBy": "Microsoft.NET.Sdk.Functions.MSBuild-1.0.4",
+  "configurationSource": "attributes",
+  "bindings": [
+    {
+      "type": "queueTrigger",
+      "queueName": "%AzureMLJobQueueName%",
+      "connection": "StorageQueueConnection",
+      "name": "jobId"
+    }
+  ],
+  "disabled": false,
+  "scriptFile": "..\\bin\\RedditAzureFunctions.dll",
+  "entryPoint": "RedditAzureFunctions.AzureMLJobChecker.Run"
+}
