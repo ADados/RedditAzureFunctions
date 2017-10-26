@@ -5,6 +5,7 @@
     "fileLoggingMode": "debugOnly"
   },
   "queues": {
-    "batchSize": 9
+    "batchSize": 9,
+    "visibilityTimeout": "00:15:00"
   }
 }

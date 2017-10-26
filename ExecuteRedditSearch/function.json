@@ -5,11 +5,11 @@
     {
       "type": "queueTrigger",
       "connection": "StorageQueueConnection",
-      "queueName": "%RedditPostQueueName%",
-      "name": "socialGistPost"
+      "queueName": "%RedditSearchQueueName%",
+      "name": "processMessage"
     }
   ],
   "disabled": false,
   "scriptFile": "../bin/RedditAzureFunctions.dll",
-  "entryPoint": "RedditAzureFunctions.ProcessPost.ProcessRedditPost"
+  "entryPoint": "RedditAzureFunctions.ExecuteRedditSearch.Run"
 }

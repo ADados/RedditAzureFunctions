@@ -1,5 +1,5 @@
 {
-  "generatedBy": "Microsoft.NET.Sdk.Functions.MSBuild-1.0.4",
+  "generatedBy": "Microsoft.NET.Sdk.Functions.Generator-1.0.6",
   "configurationSource": "attributes",
   "bindings": [
     {
@@ -10,6 +10,6 @@
     }
   ],
   "disabled": false,
-  "scriptFile": "..\\bin\\RedditAzureFunctions.dll",
+  "scriptFile": "../bin/RedditAzureFunctions.dll",
   "entryPoint": "RedditAzureFunctions.AzureMLJobChecker.Run"
 }
